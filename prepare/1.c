@@ -15,7 +15,7 @@ int main(){
  temp2=temp%10;
 
  temp=temp/10;
-  result=result+pow(temp2,count);
+  result+=round(pow(temp2,count));
 
 }
  if(result==enter){
