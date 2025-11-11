@@ -1,14 +1,11 @@
 #include<stdio.h>
-int print(int n);
+int print(int n , int n2);
 void main(){
-    int n;
+    int n , n2;
     printf("enter no ");
-    scanf("%d",&n);
-    print(n);
+    scanf("%d%d",&n,&n2);
+    print(n,n2);
 }
-int print (int n){
-    int cur=1;
-    for (int i=1;i<=n;i++){
-        printf("hello world!\n");
-    }
+int print (int n ,int n2){
+ printf("addition is %d\n",n+n2);
 }

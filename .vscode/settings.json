@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "45": "c",
         "stdio.h": "c"
     }
 }

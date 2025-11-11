@@ -5,6 +5,6 @@
     scanf("%d",&a);
     for(int i =1;i<=a;i++){
         r*=i;
-        printf("%d * ",r);
+        printf(" %d *",r);
  }
 }
