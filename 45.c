@@ -33,7 +33,7 @@ int main() {
     }
 
     if(found == 0)
-        printf("Number not found in the array.\n");
+        printf("not found.\n");
 
     return 0;
 }

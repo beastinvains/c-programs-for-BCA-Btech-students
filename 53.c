@@ -16,6 +16,7 @@ void main() {
         if(ch1 == EOF && ch2 == EOF)
             break;
         if(ch1 != ch2) {
+            
             same = 0;
             break;
         }}
